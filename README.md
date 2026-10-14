@@ -15,7 +15,7 @@ Il progetto unisce la gestione automatizzata dei flussi di dati (ETL su database
 
 ### 🖥️ Interfaccia API & Documentazione (Swagger UI)
 *(Qui sotto puoi inserire l'immagine della schermata di Swagger trascinandola direttamente su GitHub)*
-![Smart Telco Churn API Swagger UI](INCOLLA_QUI_IL_LINK_DELL_IMMAGINE_GENERATO_DA_GITHUB)
+![Smart Telco Churn API Swagger UI](Screenshot 2026-10-14 181815.png)
 
 ---
 

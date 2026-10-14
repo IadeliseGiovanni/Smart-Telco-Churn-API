@@ -14,8 +14,8 @@ Piattaforma integrata End-to-End di **Data Engineering** e **Machine Learning** 
 Il progetto unisce la gestione automatizzata dei flussi di dati (ETL su database relazionali) all'addestramento di modelli predittivi avanzati, esponendo il tutto tramite un'architettura **API-First**.
 
 ### 🖥️ Interfaccia API & Documentazione (Swagger UI)
-*(Qui sotto puoi inserire l'immagine della schermata di Swagger trascinandola direttamente su GitHub)*
-![Smart Telco Churn API Swagger UI](Screenshot 2026-10-14 181815.png)
+<img width="1643" height="817" alt="Screenshot 2026-10-14 181815" src="https://github.com/user-attachments/assets/92e4974c-6251-4eb8-8ddb-e9450567103e" />
+
 
 ---
 

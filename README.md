@@ -1,24 +1,36 @@
 # 🚀 Smart Telco RAG & ETL System
 
-> Piattaforma integrata End-to-End di Data Engineering e Machine Learning per la predizione e la prevenzione del Customer Churn nel settore delle Telecomunicazioni.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![ETL](https://img.shields.io/badge/Data-Engineering_ETL-orange?logo=sqlite&logoColor=white)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost_Pipeline-darkorange?logo=xgboost&logoColor=white)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)
+![Frontend](https://img.shields.io/badge/UI-Swagger_UI-blueviolet?logo=fastapi&logoColor=white)
 
 ---
 
 ## 📋 Panoramica del Progetto
-Il progetto affronta una delle criticità economiche principali delle aziende Telco: la perdita di clienti (Churn). L'applicazione unisce le competenze di **Data Engineering** (gestione ed elaborazione dei flussi ETL su database relazionali) e di **Machine Learning** (addestramento di modelli predittivi avanzati con XGBoost), esponendo il tutto tramite un'architettura **API-First** ad alte performance.
+Piattaforma integrata End-to-End di **Data Engineering** e **Machine Learning** per la predizione e la prevenzione del Customer Churn nel settore delle Telecomunicazioni. 
 
-### 🔄 Flusso Operativo:
-1. **ETL Pipeline:** Estrazione, pulizia e strutturazione dei dati grezzi all'interno di un database relazionale SQLite (`data/telco.db`).
-2. **Machine Learning:** Addestramento di un modello di classificazione **XGBoost** per stimare in tempo reale la probabilità di abbandono del cliente.
-3. **Backend & API:** Esposizione del modello tramite un server asincrono sviluppato con **FastAPI** e documentazione interattiva (Swagger UI).
+Il progetto unisce la gestione automatizzata dei flussi di dati (ETL su database relazionali) all'addestramento di modelli predittivi avanzati, esponendo il tutto tramite un'architettura **API-First**.
+
+### 🖥️ Interfaccia API & Documentazione (Swagger UI)
+*(Qui sotto puoi inserire l'immagine della schermata di Swagger trascinandola direttamente su GitHub)*
+![Smart Telco Churn API Swagger UI](INCOLLA_QUI_IL_LINK_DELL_IMMAGINE_GENERATO_DA_GITHUB)
+
+---
+
+## 🔄 Flusso Operativo
+1. **ETL Pipeline (`etl_pipeline.py`):** Estrazione dei dati grezzi, pulizia (gestione duplicati e valori nulli) e caricamento automatizzato in un database relazionale SQLite (`data/telco.db`).
+2. **Machine Learning (`train_model.py`):** Estrazione dei dati dal DB, split stratificato e training di un modello di classificazione **XGBoost** serializzato in `models/churn_pipeline_v1.joblib`.
+3. **Backend & API (`backend/api.py`):** Server asincrono sviluppato con **FastAPI** per l'inferenza in tempo reale e documentazione interattiva (Swagger UI).
 
 ---
 
 ## 🛠️ Stack Tecnologico
-* **Linguaggio Core:** Python 3.10+
-* **Data Engineering & ETL:** Pandas, NumPy, SQLAlchemy, SQLite
+* **Core:** Python 3.10+, Pandas, NumPy
+* **Data Engineering:** SQLAlchemy, SQLite, Pipeline ETL
 * **Machine Learning:** Scikit-learn, XGBoost, Joblib
-* **Backend & API:** FastAPI, Pydantic, Uvicorn
+* **Backend:** FastAPI, Pydantic, Uvicorn
 * **Version Control:** Git, GitHub
 
 ---
